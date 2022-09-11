@@ -245,6 +245,13 @@ local config = {
     },
     telescope = {
       defaults = { file_ignore_patterns = { "node_modules" }}
+    },
+    ["neo-tree"] = {
+      filesystem = {
+        filtered_items = {
+          hide_dotfiles = false,
+        }
+      }
     }
   },
 
